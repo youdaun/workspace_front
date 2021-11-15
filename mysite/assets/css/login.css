@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+#wrap #contents2 #main #login {
+    width: 500px;
+    margin: 10px auto;
+    border: 1px solid #a6a6a6;
+}
+
+#wrap #contents2 #main #login form {
+    margin: 50px 0px 0px 0px;
+}
+
+#wrap #contents2 #main #login form div {
+    text-align: right;
+    margin: 15px 175px 0px 0px;
+}
+
+#wrap #contents2 #main #login form div label {
+    margin: 0px 20px 0px 0px;
+}
+
+#wrap #contents2 #main #login form div input {
+    width: 145px;
+    height: 30px;
+}
+
+#wrap #contents2 #main #login form #login-btn {
+    margin: 40px 0px 40px 0px;
+    text-align: center;
+}
+
+#wrap #contents2 #main #login form #login-btn button {
+    width: 100px;
+    height: 35px;
+    border: 1px solid #a6a6a6;
+}
+

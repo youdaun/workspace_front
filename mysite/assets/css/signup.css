@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+#wrap #contents2 #main #signup div {
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 0px;
+}
+
+#wrap #contents2 #main #signup div #u-address {
+    display: block;
+    width: 400px;
+    margin: 8px 0px 0px 83px;
+}
+
+#wrap #contents2 #main #signup div textarea {
+    width: 400px;
+    height: 100px;
+}
+
+#wrap #contents2 #main #signup #introduce {
+    float: left;
+}
+
+#wrap #contents2 #main #signup #u-btn {
+    text-align: center;
+    border-bottom: none;
+    
+}
+
+#wrap #contents2 #main #signup #u-btn button {
+    width: 70px;
+    padding: 4px 0px;
+    border-radius: 5px;
+    border: 1px solid #aaaaaa;
+    background-color: #efefef;
+}
+
+#wrap #contents2 #main #signup #u-btn button:hover {
+    background-color: #d9d9d9;
+}

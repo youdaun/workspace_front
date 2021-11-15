@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>유다운의 홈페이지 입니다.</title>
+        <link rel="stylesheet" href="./assets/css/mysite.css">
+        <link rel="stylesheet" href="./assets/css/signup.css">
+    </head>
+
+    <body>
+        <!-- wrap -->
+        <div id="wrap">
+
+            <!-- header -->
+            <div id="header" class="clearfix">
+                <h1><a href="./main.html">Mysite</a></h1>
+                <ul class="clearfix">
+                    <li><a href="./login.html">로그인</a></li>
+                    <li><a href="./signup.html">회원가입</a></li>
+                </ul>
+            </div>
+            <!-- /header -->
+
+            <!-- nav -->
+            <div id="nav">
+                <ul class="clearfix">
+                    <li><a href="">입사지원서</a></li>
+                    <li><a href="./bList.html">게시판</a></li>
+                    <li><a href="">갤러리</a></li>
+                    <li><a href="">방명록</a></li>
+                </ul>
+            </div>
+            <!-- /nav -->
+
+            <!-- contents -->
+            <div id="contents2" class="clearfix">
+
+                <!-- aside -->
+                <div id="aside">
+                    <h2>게시판</h2>
+                    <ul>
+                        <li>회원정보</li>
+                        <li><a href="./login.html">로그인</a></li>
+                        <li><a href="./signup.html">회원가입</a></li>
+                    </ul>
+                </div>
+                <!-- /aside -->
+
+                <!-- main -->
+                <div id="main">
+                    <div id="main-header" class="clearfix">
+                        <h3>회원가입</h3>
+                        <ul class="clearfix f-s">
+                            <li>홈</li>
+                            <li>회원</li>
+                            <li class="last">회원가입</li>
+                        </ul>
+                    </div>
+
+                    <div id="signup">
+                        <form action="" method="get">
+                            <div>
+                                <label for="u-id" class="formgroup">아이디</label>
+                                <input id="u-id" type="text" placeholder="아이디를 입력하세요" name="" value="">
+                            </div>
+
+                            <div>
+                                <label for="u-pwd" class="formgroup">패스워드</label>
+                                <input id="u-pwd" type="password" placeholder="패스워드를 입력하세요" name="" value="">
+                            </div>
+
+                            <div>
+                                <label for="u-name" class="formgroup">이름</label>
+                                <input id="u-name" type="text" placeholder="이름을 입력하세요" name="" value="">
+                            </div>
+
+                            <div>
+                                <label for="u-profile" class="formgroup">프로필사진</label>
+                                <input id="u-profile" type="file"> 
+                            </div>
+
+                            <div>
+                                <label class="formgroup">주소</label>
+                                <input type="text" placeholder="우편번호">
+                                <button type="menu">우편번호찾기</button>
+                                <input id="u-address" type="text" placeholder="주소">
+                            </div>
+
+                            <div>
+                                <label class="formgroup">이동통신사</label>
+                                <select>
+                                    <option selected="selected">선택해주세요</option>
+                                    <option>skt</option>
+                                    <option>kt</option>
+                                    <option>lg</option>
+                                    <option>알뜰폰</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <span class="formgroup">나이</span>
+                                <label>10대</label>
+                                <input type="radio" name="u-age">
+                                <label>20대</label>
+                                <input type="radio" name="u-age">
+                                <label>30대</label>
+                                <input type="radio" name="u-age">
+                                <label>40대</label>
+                                <input type="radio" name="u-age">
+                                <label>기타</label>
+                                <input type="radio" name="u-age">
+                            </div>
+
+                            <div>
+                                <span class="formgroup">취미</span>
+                                <label>독서</label>
+                                <input type="checkbox" name="u-hobby">
+                                <label>음악</label>
+                                <input type="checkbox" name="u-hobby">
+                                <label>여행</label>
+                                <input type="checkbox" name="u-hobby">
+                                <label>영화</label>
+                                <input type="checkbox" name="u-hobby">
+                                <label>코딩</label>
+                                <input type="checkbox" name="u-hobby">
+                                <label>기타</label>
+                                <input type="checkbox" name="u-hobby">
+                            </div>
+
+                            <div>
+                                <span id="introduce" class="formgroup">자기소개</span>
+                                <textarea></textarea>
+                            </div>
+
+                            <div id="u-btn">
+                                <button id="u-submit" type="submit">등록</button>
+                                <button id="u-reset" type="reset">초기화</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    
+
+
+                </div>
+
+            </div>
+            <!-- /contents -->
+
+            <!-- footer -->
+            <div id="footer">
+                Copyright (c) 2021 유다운. All right reserved
+            </div>
+            <!-- /footer -->
+
+        </div>
+        <!-- /wrap -->
+        
+    </body>
+</html>

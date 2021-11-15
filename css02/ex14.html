@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+            ol {
+                list-style-type: none;
+            }
+            ol>li {
+                float: left;
+
+                background-image: url("./img/star.jpg");
+                background-repeat: no-repeat;
+                background-size: 10px 10px;
+                background-position: left center;
+
+                border-right: 2px solid #000000;
+
+                padding-left: 10px;
+                padding-right: 20px;
+                margin-right: 20px;
+            }
+            ol>li.last {
+                border: none;
+            }
+            /* ol>li:after {
+                padding-left: 20px;
+                content: "|";
+            }
+            ol>li.last:after {
+                content: none;
+            } */
+        </style>
+    </head>
+
+    <body>
+
+        <ol>
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+            <li>메뉴4</li>
+            <li class="last">메뉴5</li>
+        </ol>
+
+    </body>
+
+</html>
